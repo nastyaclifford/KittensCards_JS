@@ -56,7 +56,7 @@ console.log (function show (){});
     ```
     
 10. Что выведет код? 
-- Cat
+- Ошибка, тк переменная задана после функции. Если убрать первую console.log, то выведет Cat.
 
 console.log(foo); 
 
