@@ -7,6 +7,7 @@ Hometask, IT Girls, Week 10 (JS, Functions)
 - Function Declaration (function show (text) {})
 - Function Expression (let show = function (text) {};)
 - Стрелочная функция (let show = text => ....)
+- IIFE (function (text){};());
 
 2. Приведите примеры вызова одной и той же функции всеми известными вам способами.
 function show (text) {}
