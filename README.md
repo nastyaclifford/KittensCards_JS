@@ -53,3 +53,9 @@ console.log (function show (){});
     ```
     
 10. Что выведет код? Cat
+
+console.log(foo); 
+
+let foo = "Cat";
+
+console.log(foo);
