@@ -11,3 +11,18 @@ function button_right() {
 function button_left() {
   document.getElementById("image").src = "assets/kitten.jpg";
 }
+
+//Задание 3
+function leapYear(year) {
+  if (year % 4 === 0) {
+    if (year % 100 === 0) {
+      if (year % 400 === 0) {
+        console.log("Год является високосным (366 дней)");
+      }
+    }
+  } else {
+    console.log("Год не високосный (у него 365 дней).");
+  }
+}
+
+leapYear(2022);
