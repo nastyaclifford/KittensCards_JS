@@ -1,0 +1,26 @@
+.title{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.image{
+    width: 30rem;
+    display: block;
+    margin: 0 auto;
+}
+.control-buttons{
+    display: flex;
+    justify-content: space-around;
+
+}
+.switch{
+    border-radius: 10px;
+    background: black;
+    color: white;
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button:focus{
+    border: 5px solid grey;
+}
